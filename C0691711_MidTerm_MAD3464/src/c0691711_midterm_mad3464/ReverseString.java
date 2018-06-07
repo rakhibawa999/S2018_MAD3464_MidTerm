@@ -14,12 +14,13 @@ public class ReverseString {
     String input ="Lambton";
     char[] temp = input.toCharArray();
     int left =0;
-    int right =7;
+  
+   
+    int right =temp.length -1;
     
     
         
-    void swap(){   
-    
+   
     for(left=0; left<right ; left++ ; right--)
     {
         char t =temp [left];
@@ -34,6 +35,6 @@ public class ReverseString {
      }}
 
     
-    }
+    
 
     
